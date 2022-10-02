@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    overflow: hidden;
+}
+#navl{
+    width: 19%;
+    height: 10%;
+    position: relative;
+}
+#navl h2{
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50% );
+}
+#navl span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 162, 0);
+}
+
+#nav {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navc {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#navr {
+    width: 15%;
+    height: 100%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.elem:hover{
+    color:rgb(75, 65, 255);
+    transform: scale(1.1);
+}
+#sign{
+    border: 2px solid rgba(118, 118, 118, 0.886);
+    padding: 10px;
+    border-radius: 7px;
+}
+#img{
+    width: 46%;
+    height: 67%;
+    position: absolute;
+    top: 15%;
+    right: 4%;
+    border-radius: 10px;
+
+}
+#img img{
+    height: 95%;
+    width: 95%;
+    
+    border-radius: 10px;
+}
+#content{
+    width: 50%;
+    height: 50%;
+    
+    /* background-color: rgb(171, 43, 43); */
+    
+}
+
+#think{
+    margin-left: 22%;
+    margin-top: 22px;
+    font-size: 35px;
+    
+}
+#think h1{
+    font-weight: 600;
+
+}
+
+#think span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#what{
+    margin-left: 22.3%;
+    margin-top: 15px;
+}
+#what h2{
+    font-size: 28px;
+    text-decoration: line-through ;
+    color: rgb(255, 91, 91);
+      
+}
+#what p{
+    margin-top: 15px;
+    font-size: 18px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(103, 102, 102);
+    font-weight: 600;
+}
+#what span{
+    color: rgb(255, 255, 255);
+}
+#what button{
+    margin-top: 17px;
+    padding: 11px 18px;
+    background-color: rgb(75, 65, 255);
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+#cir{
+    width: 20%;
+    height: 15%;
+    position: absolute;
+    bottom: 7%;
+    left: 10%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url(https://lh3.googleusercontent.com/yTCFQse3PG26O5s1swq20M-71l3WOYPRUPsafp2lZ5KpCJpNB0_lTkXsLc0klIwTyA);
+    background-position: center;
+    transform: rotate(-30deg);
+    background-size: contain;
+}
+
+#build{
+    width: 49%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgb(101, 101, 101);
+}
+#rightside{
+    width: 50%;
+    height: 15%;
+    /* background-color: aqua; */
+    position: absolute;
+    right: 8%;
+    bottom: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ek{
+    width: 150px;
+    height: 100%;
+    text-align: center;
+    /* background-color: rgb(202, 129, 129);/ */
+}
+#gol1{
+    width: 60px;
+    height: 60px;
+    background:linear-gradient(to top left, rgb(101, 209, 252),rgb(244, 127, 127) );
+    border-radius: 50%;
+    margin-left: 30%;
+    
+}
+#gol2 {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to bottom left, rgb(99, 252, 132), #fc26b882);
+    border-radius: 50%;
+    margin-left: 30%;
+
+}
+#gol3 {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to bottom right, rgb(96, 95, 95), rgb(244, 244, 127));
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 30%;
+
+}
+.ek p{
+    margin-top: 15px;
+}
+#line1{
+    width: 2.4px;
+    height: 70px;
+    position: absolute;
+    right: 41%;
+    bottom: 3%;
+    background-color: rgb(75, 75, 75);
+}
+#line2 {
+    width: 2.4px;
+    height: 70px;
+    position: absolute;
+    right: 24%;
+    bottom: 3%;
+    background-color: rgb(98, 98, 98);
+}
+/* video{
+    width: 16%;
+    height: 19%;
+    border-radius: 50%;
+    background-color: red;
+    
+} */
+/* #ani{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: -15%;
+    top: -17%;
+    opacity: 0.5;
+
+} */
+#ani {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 45%;
+    transform: translate(0,-50%);
+    top: 45%;
+    opacity: 0.5;
+
+}
